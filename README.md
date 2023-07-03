@@ -8,8 +8,7 @@ is an OnOff Boarding tool built with Blazor and Azure AD. You can find more info
 In the Azure Active Directory blade, click on Roles and administrators.On the Roles and administrators blade, click on the User Administrator role.
 On the User Administrator blade, click Add assignments.
 
-1.2 Create Azure-Group
-- AzurePowerBoard-Manager: 
+1.2 Create Azure-Group AzurePowerBoard-Manager: 
 This AD-group is needed for sending employees to other managers.
 Create the group and then add all the manangers.
 
