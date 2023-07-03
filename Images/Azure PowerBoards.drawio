@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2023-07-03T19:32:39.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="hRP-cFovq5WjCOU65pok" version="21.5.0" type="device">
+  <diagram name="Manage My Team" id="lvhA6H57nqg1nkUOjGQj">
+    <mxGraphModel dx="3475" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-1" target="r3QgBjiJ6vVwHg72eEPg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-4" value="Logs in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r3QgBjiJ6vVwHg72eEPg-3">
+          <mxGeometry x="-0.1274" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-1" value="Manager" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="346.5" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-2" target="r3QgBjiJ6vVwHg72eEPg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-7" value="Manage my team" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r3QgBjiJ6vVwHg72eEPg-6">
+          <mxGeometry x="-0.281" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-2" target="tdYM-TkMan1jnvkOnZbp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-2" value="AzurePowerBoards" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="63" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-5" target="r3QgBjiJ6vVwHg72eEPg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-5" value="Azure Users" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/users.svg;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="380" width="33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-8" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Checks if the Manager is listed as&amp;nbsp;Manager in the attribute&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-9" target="r3QgBjiJ6vVwHg72eEPg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-9" target="r3QgBjiJ6vVwHg72eEPg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-9" target="r3QgBjiJ6vVwHg72eEPg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-9" target="r3QgBjiJ6vVwHg72eEPg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-9" value="List Users that belong to the manager" style="sketch=0;outlineConnect=0;fillColor=#05AAFC;strokeColor=#6c8ebf;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="570" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-11" value="Create New User" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="11" y="592.5" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-12" target="tdYM-TkMan1jnvkOnZbp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-12" value="Edit Users" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="740" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r3QgBjiJ6vVwHg72eEPg-13" target="tdYM-TkMan1jnvkOnZbp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-13" value="Disable / Enable Account" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="773" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="r3QgBjiJ6vVwHg72eEPg-14" value="New Password" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="592.5" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tdYM-TkMan1jnvkOnZbp-1" target="tdYM-TkMan1jnvkOnZbp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tdYM-TkMan1jnvkOnZbp-1" target="tdYM-TkMan1jnvkOnZbp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-1" value="Attributes" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="183" y="840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-3" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Load Selected Users Attributes&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-4" value="Save" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="910" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-5" value="Discard" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="910" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-9" value="&lt;h1&gt;Discard&lt;/h1&gt;&lt;p&gt;Sends the manager back to ManageMyTeam&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="960" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-10" value="&lt;h1&gt;Save&lt;/h1&gt;&lt;p&gt;Checks if the Manager har User administrator rights, if true, save the changes. Else Error&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="960" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-11" value="&lt;h1&gt;Disable / Enable Account &lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Checks the account status&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;If Account Enabled : Option Disable Account, color Red&lt;br&gt;&lt;br&gt;If Account Disable: Option Enable Account, color Green&lt;br&gt;&lt;br&gt;Manager needs User Administrator Rights to change Accountstatus&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="740" width="190" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-14" value="Disable / Enable Account" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="847" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-17" value="Attributes" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="95" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tdYM-TkMan1jnvkOnZbp-18" target="tdYM-TkMan1jnvkOnZbp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-18" value="User" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.user;" vertex="1" parent="1">
+          <mxGeometry x="85" y="186" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tdYM-TkMan1jnvkOnZbp-20" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;List the logged in &lt;br&gt;user attributes&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
