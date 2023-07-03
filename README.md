@@ -11,6 +11,8 @@ On the User Administrator blade, click Add assignments.
 - 1.2 Create Azure-Group AzurePowerBoard-Manager: 
 This AD-group is needed for sending employees to other managers.
 Create the group and then add all the manangers.
+Look after the GroupID and post it EditUser line 94
+´´´ managers = await FetchGroupMembers("POST-OBJECT-GROUP-ID-HERE"); /// Task,  Add the Object-id from the ad-group AzurePowerBoard-Manager, Fetch Manager Details from MS-Graph, Table Content for the manager dropbox menu ´´´
 
 2. Azure Application 
 - 2.1 Create an Azure app by following the steps in this [quickstart guide](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app):
