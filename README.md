@@ -1,5 +1,7 @@
 # AzurePowerBoard
-is an OnOff Boarding tool built with Blazor and Azure AD. You can find more information about Blazor and Azure AD in this tutorial.
+is an OnOff Boarding tool built with Blazor and Azure AD.
+![Alt text](https://github.com/fardinbarashi/AzurePowerBoard/raw/main/Movie/1.gif)
+
 
 # Logic
 [![Azure Power Board](https://github.com/fardinbarashi/AzurePowerBoard/raw/main/Images/Azure%20Power%20Board.png)](https://github.com/fardinbarashi/AzurePowerBoard/blob/main/Images/Azure%20Power%20Board.png)
