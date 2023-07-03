@@ -22,6 +22,7 @@ Create the group and then add all the manangers.
      - User.Read.All
      - User.ReadWrite
      - User.ReadWrite.All
+     - GroupMember.Read.All 
 
 Click on "Integrations assistant":
    - Select "Single Page App (SPA)".
