@@ -44,4 +44,104 @@ Click on "Integrations assistant":
    - In the "Add a platform" section, select "Single Page Application". Add the correct Redirect URI (e.g., https://localhost:5001/signin-oid) for your development environment.
    - Continue the wizard.
 
-# Optional : Deny all user except pure admin roles to log in to the Azure Portal, by using Azure Active Directory's Conditional Access policies. 
+## Optional : Deny login to Azure Portal
+Deny all user except pure admin roles to log in to the Azure Portal, by using Azure Active Directory's Conditional Access policies.
+
+
+## 2. Create new User - Azure AD attribute mapping  
+[![Azure AD attribute mapping](https://github.com/fardinbarashi/AzurePowerBoard/blob/main/Images/AzurePowerBoard%20-%20Create%20User.png)
+
+- Identity information
+``` 
+identityfirstname - givenName -
+Description: User's first name.
+
+identitymiddlename - extensionAttributeX
+Description: User's middle name. There isn't a standard attribute in Azure AD for middle names. Consider adding it to extensionAttributeX (where "X" could be a number from 1 to 15).
+
+identitylastname - surname
+Description: User's last name.
+
+identityssn - extensionAttributeX
+Description: User's national identification number. There isn't a standard attribute in Azure AD for middle names. Consider adding it to extensionAttributeX (where "X" can be a number from 1 to 15).
+
+``` 
+     
+- Job information
+``` 
+jobinformationjobtitle - jobTitle
+Description: User's job title, e.g., "Project Manager" or "Systems Architect".
+
+jobinformationcompanyname - companyName
+Description: Company name.
+
+jobinformationdepartment - department
+Description: The department where the user works, e.g., "Sales" or "Tech".
+
+jobinformationofficelocation - physicalDeliveryOfficeName
+Description: Name or location of the user's office, e.g., "Office 2B" or "Stockholm Main Office".
+
+jobinformationmanager - Automatically taken from the app, Azure AD relation.
+``` 
+
+- Contact information
+``` 
+contactstreetaddress - streetAddress
+Description: Street or road of the user's office address.
+
+contactcity - city
+Description: City or town of the user's office address.
+
+contactstate - state 
+Description: State, province, or region of the user's office address.
+
+contactzip - postalCode
+Description: Postal code of the user's office address.
+
+contactcountry - country
+Description: Country of the user's office address.
+
+contactbusinessPhone - telephoneNumber
+Description: User's primary phone number.
+
+contactmobilePhone - mobile
+Description: User's mobile phone number.
+
+contactemail - mail
+Description: User's primary email address.
+``` 
+
+
+- Password Options
+``` 
+passwordfunctionspecialchar -
+Description: Function to generate passwords, include special char.
+
+passwordfunctionsimilarchar -
+Description: Function to generate passwords. exclude similar char
+
+passwordLength -
+Description: Function to generate passwords. password length
+``` 
+
+- Username Options
+``` 
+firstnameUsernameLength -
+Description: Function to generate account, include special char.
+
+lastnameUsernameLength -
+Description: Function to generate passwords. exclude similar char
+
+usernameoptionsfunctionusenumbers -
+Description: Function to generate passwords. User numbers on the username
+
+potusername - Function
+``` 
+
+
+- Account Options
+``` 
+accountdate -
+Description: Function to account, Enable account at specfic date accountdate, deafult is always today.
+
+``` 
